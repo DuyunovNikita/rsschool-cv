@@ -29,3 +29,13 @@ let result = sum(1, 2);
 alert( result );
 
 ```
+
+## Education
+
+- University: Belarusian National Technical University, Civil Engineering major
+- Courses:
+  - Sololern
+
+## English
+
+B1 (I have been watching all the content in English for a long time. I have a good vocabulary and expressions)
