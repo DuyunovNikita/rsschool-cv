@@ -32,7 +32,7 @@ alert( result );
 
 ## Education
 
-- University: Belarusian National Technical University, Civil Engineering major
+- University: State Professional Educational University of Moscow "College of Communications No. 54". Programmer major.
 - Courses:
   - Sololern
 
