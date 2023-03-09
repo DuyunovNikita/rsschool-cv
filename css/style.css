@@ -112,6 +112,7 @@ body {
 }
 
 .contacts__list {
+  margin-bottom: 20px;
   display: inline-block;
   font-size: 18px;
   width: 400px;
@@ -125,6 +126,17 @@ body {
   height: 10px;
   background-color: black;
   border-radius: 50%;
+}
+
+.about-me__title {
+  margin-bottom: 20px;
+  font-size: 30px;
+  width: 400px;
+}
+
+.about-me__text {
+  font-size: 18px;
+  width: 400px;
 }
 
 .text {
