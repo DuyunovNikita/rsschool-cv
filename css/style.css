@@ -185,6 +185,60 @@ body {
   width: 400px;
 }
 
+.education {
+  margin-bottom: 20px;
+}
+
+.education__title {
+  margin-bottom: 20px;
+  font-size: 30px;
+  width: 400px;
+}
+
+.education__list {
+  position: relative;
+  font-size: 18px;
+  padding-left: 30px;
+  width: 400px;
+}
+
+.education__list li::before {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 0;
+  margin-right: 17px;
+
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.list__list2 li::before {
+  content: "";
+  margin-right: 17px;
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.list__list2 li:last-child {
+  margin-left: 30px;
+}
+
+.list__list2 li:last-child::before {
+  background-color: #828181;
+}
+
+.list__list2 {
+  display: inline-block;
+  width: 400px;
+  font-size: 18px;
+}
+
 .text {
   width: 400px;
 }
