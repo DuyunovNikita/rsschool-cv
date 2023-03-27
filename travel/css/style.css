@@ -100,8 +100,6 @@ h6 {
   top: 0;
   left: 12.5%;
 
-  margin: 0 auto;
-
   background-color: rgba(242, 120, 92, 0.7);
   box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
 }
@@ -185,7 +183,215 @@ h6 {
   width: 1440px;
 
   margin: 0 auto;
+  padding-top: 122px;
+  padding-left: 120px;
 
   background-image: url(/travel/img/garrett-parker.jpg);
   background-repeat: no-repeat;
+}
+
+.wrapper__preview {
+  height: 422px;
+  width: 892px;
+  color: #ffffff;
+}
+
+.preview__title {
+  height: 174px;
+  width: 801px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+
+  margin-bottom: 53px;
+}
+
+.preview__subtitle {
+  font-style: italic;
+  font-weight: 700;
+  font-size: 20px;
+
+  margin-bottom: 46px;
+}
+
+.preview__form {
+  width: 892px;
+  height: 95px;
+
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 16px;
+}
+
+.form__wrapper {
+  display: inline-block;
+  width: 560px;
+  height: 22px;
+  margin-top: 32px;
+  margin-left: 41px;
+}
+
+.wrapper__input {
+  display: inline-block;
+
+  width: 560px;
+  height: 22px;
+
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.wrapper__input::-webkit-input-placeholder {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 24px;
+  color: #f2785c;
+}
+
+.form__button {
+  width: 228px;
+  height: 59px;
+
+  margin-top: 18px;
+  margin-left: 45px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: #ffffff;
+
+  background-color: #0d606f;
+  box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08),
+    0px 2px 3px rgba(13, 96, 111, 0.16);
+  border-radius: 10px;
+  display: inline-block;
+}
+
+.steps {
+  width: 1177px;
+  height: 247px;
+
+  margin: 0 auto;
+  margin-top: 81px;
+}
+
+.steps__title {
+  width: 611px;
+  height: 53px;
+
+  margin-left: 283px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  color: #f2785c;
+}
+
+.steps__item-1 {
+  display: inline-block;
+
+  margin-left: 73px;
+  margin-top: 40px;
+
+  width: 100px;
+  height: 100px;
+
+  background-color: #f2785c;
+  border-radius: 16px;
+}
+
+.item-1__icon {
+  height: 45px;
+  width: 50px;
+
+  margin-top: 28px;
+  margin-left: 25px;
+}
+
+.steps__item-2 {
+  display: inline-block;
+
+  margin-top: 40px;
+  margin-left: 324px;
+
+  width: 100px;
+  height: 100px;
+
+  background-color: #f2785c;
+  border-radius: 16px;
+}
+
+.item-2__icon {
+  height: 45px;
+  width: 50px;
+
+  margin-top: 28px;
+  margin-left: 25px;
+}
+
+.steps__item-3 {
+  display: inline-block;
+
+  margin-top: 40px;
+  margin-left: 324px;
+
+  width: 100px;
+  height: 100px;
+
+  background-color: #f2785c;
+  border-radius: 16px;
+}
+
+.item-3__icon {
+  height: 45px;
+  width: 50px;
+
+  margin-top: 28px;
+  margin-left: 25px;
+}
+
+.steps__description-1 {
+  display: inline-block;
+
+  width: 247px;
+  height: 24px;
+
+  margin-top: 30px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+
+  color: #0d606f;
+}
+
+.steps__description-2 {
+  display: inline-block;
+
+  width: 222px;
+  height: 24px;
+
+  margin-top: 30px;
+  margin-left: 205px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+
+  color: #0d606f;
+}
+
+.steps__description-3 {
+  display: inline-block;
+
+  width: 317px;
+  height: 24px;
+
+  margin-top: 30px;
+  margin-left: 160px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+
+  color: #0d606f;
 }
