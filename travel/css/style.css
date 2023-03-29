@@ -395,3 +395,259 @@ h6 {
 
   color: #0d606f;
 }
+
+.destinations {
+  border: 1px solid black;
+
+  position: absolute;
+
+  left: -540px;
+  top: 1189px;
+
+  width: 2520px;
+  height: 1042px;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.destinations__title {
+  width: 501px;
+  height: 53px;
+
+  margin-left: 1200px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+
+  color: #f2785c;
+}
+
+.destinations__photos {
+  width: 2520px;
+  height: 800px;
+
+  margin-top: 46px;
+}
+
+.photos__photo-1 {
+  display: inline-block;
+
+  width: 800px;
+  height: 800px;
+
+  margin-right: 60px;
+
+  background-image: url(../img/island.jpg);
+  background-repeat: no-repeat;
+
+  border-radius: 16px;
+}
+
+.photos__photo-2 {
+  display: inline-block;
+
+  width: 800px;
+  height: 800px;
+
+  margin-right: 40px;
+
+  background-image: url(../img/japan.jpg);
+  background-repeat: no-repeat;
+
+  border-radius: 16px;
+}
+
+.photos__photo-3 {
+  display: inline-block;
+
+  width: 800px;
+  height: 800px;
+
+  background-image: url(../img/usa.jpg);
+  background-repeat: no-repeat;
+
+  border-radius: 16px;
+}
+
+.destinations__switches {
+  width: 90px;
+  height: 20px;
+
+  margin-top: 24px;
+  margin-left: 1204px;
+}
+
+.switches__item-1 {
+  display: inline-block;
+
+  width: 20px;
+  height: 20px;
+
+  margin-right: 10px;
+
+  background-color: rgba(242, 120, 92, 0.5);
+
+  border-radius: 50%;
+}
+
+.switches__item-2 {
+  display: inline-block;
+
+  width: 20px;
+  height: 20px;
+
+  margin-right: 10px;
+
+  background-color: #f2785c;
+
+  border-radius: 50%;
+}
+
+.switches__item-3 {
+  display: inline-block;
+
+  width: 20px;
+  height: 20px;
+
+  background-color: rgba(242, 120, 92, 0.5);
+
+  border-radius: 50%;
+}
+
+.destinations__search {
+  width: 228px;
+  height: 59px;
+
+  margin-top: 40px;
+  margin-left: 1138px;
+
+  background-color: #0d606f;
+  box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08),
+    0px 2px 3px rgba(13, 96, 111, 0.16);
+  border-radius: 10px;
+}
+
+.search__text {
+  display: inline-block;
+
+  position: relative;
+
+  width: 145px;
+  height: 41px;
+
+  margin-top: 13.5px;
+
+  padding-left: 43px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.search__text::before {
+  content: "";
+
+  position: absolute;
+
+  top: -6px;
+  left: 0;
+
+  display: inline-block;
+
+  width: 40px;
+  height: 40px;
+
+  background-image: url(../img/icons/arrow-right.svg);
+  background-repeat: no-repeat;
+}
+
+.travel-stories-title {
+  width: 335px;
+  height: 53px;
+
+  margin: 0 auto;
+  margin-top: 1228px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+
+  color: #f2785c;
+}
+
+.stories {
+  margin: 0 auto;
+  margin-top: 48px;
+
+  width: 1440px;
+  height: 1331px;
+
+  background-image: url(../img/mountain-with-boat.jpg);
+  background-repeat: no-repeat;
+}
+
+.stories__wrapper {
+  margin: 0 auto;
+
+  margin-top: 55px;
+
+  width: 1201px;
+  height: 1171px;
+}
+
+.wrapper__item-1 {
+  width: 1200px;
+  height: 246.79px;
+}
+
+.item-1__img {
+  display: inline-block;
+
+  width: 400px;
+  height: 246.79px;
+
+  margin-right: 40px;
+
+  background-image: url(../img/thailand.jpg);
+  background-repeat: no-repeat;
+
+  border-radius: 16px;
+}
+
+.item-1__text {
+  width: 740px;
+  height: 225px;
+  display: inline-block;
+}
+
+.text__title {
+  display: inline-block;
+
+  width: 524px;
+  height: 42px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+
+  color: #0d606f;
+
+  margin-bottom: 23.69px;
+}
+
+.text__subtitle {
+  display: inline-block;
+
+  width: 760px;
+  height: 157px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+
+  color: #0d606f;
+}
