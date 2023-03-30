@@ -600,6 +600,9 @@ body {
 }
 
 .wrapper__item-1 {
+  margin-top: 48px;
+  margin-bottom: 28px;
+
   width: 1200px;
   height: 246.79px;
 }
@@ -610,44 +613,218 @@ body {
   width: 400px;
   height: 246.79px;
 
-  margin-right: 40px;
+  margin-right: 33px;
 
   background-image: url(../img/thailand.jpg);
   background-repeat: no-repeat;
 
   border-radius: 16px;
+
+  vertical-align: top;
 }
 
-.item-1__text {
-  width: 740px;
-  height: 225px;
+.item-1__wrapper {
   display: inline-block;
+
+  width: 763px;
+  height: 229px;
 }
 
-.text__title {
-  display: inline-block;
-
+.wrapper__title {
   width: 524px;
   height: 42px;
+
+  margin-bottom: 23px;
 
   font-style: normal;
   font-weight: 400;
   font-size: 35px;
 
-  color: #0d606f;
-
-  margin-bottom: 23.69px;
+  color: #ffffff;
 }
 
-.text__subtitle {
-  display: inline-block;
-
-  width: 760px;
-  height: 157px;
+.wrapper__subtitle {
+  width: 690px;
+  height: 181.63px;
 
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
+  line-height: 24px;
 
-  color: #0d606f;
+  color: #ffffff;
+}
+
+.subtitle__link {
+  color: #ffffff;
+}
+
+.item-1__img-2 {
+  display: inline-block;
+
+  width: 400px;
+  height: 246.79px;
+
+  margin-right: 33px;
+
+  background-image: url(../img/utah.jpg);
+  background-repeat: no-repeat;
+
+  border-radius: 16px;
+
+  vertical-align: top;
+}
+
+.item-1__img-3 {
+  display: inline-block;
+
+  width: 400px;
+  height: 246.79px;
+
+  margin-right: 33px;
+
+  background-image: url(../img/mountain.jpg);
+  background-repeat: no-repeat;
+
+  border-radius: 16px;
+
+  vertical-align: top;
+}
+
+.wrapper__item-2 {
+  width: 1200px;
+  height: 246.79px;
+}
+
+.item-1__img-4 {
+  display: inline-block;
+
+  width: 400px;
+  height: 246.79px;
+
+  margin-right: 33px;
+
+  background-image: url(../img/yellow-car.jpg);
+  background-repeat: no-repeat;
+
+  border-radius: 16px;
+
+  vertical-align: top;
+}
+
+.stories__button {
+  width: 228px;
+  height: 59px;
+
+  margin-left: 605px;
+
+  background-color: #0d606f;
+  box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08),
+    0px 2px 3px rgba(13, 96, 111, 0.16);
+  border-radius: 10px;
+}
+
+.button__text {
+  display: inline-block;
+
+  position: relative;
+
+  width: 145px;
+  height: 41px;
+
+  margin-top: 13.5px;
+
+  padding-left: 43px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  color: #ffffff;
+}
+
+.button__text::before {
+  content: "";
+
+  position: absolute;
+
+  top: -6px;
+  left: 0;
+
+  display: inline-block;
+
+  width: 40px;
+  height: 40px;
+
+  background-image: url(../img/icons/arrow-right.svg);
+  background-repeat: no-repeat;
+}
+
+.footer {
+  width: 1440px;
+  height: 68px;
+
+  margin-left: 12.5%;
+
+  background-color: rgba(242, 120, 92, 0.7);
+}
+
+.footer__text {
+  display: inline-block;
+
+  width: 260px;
+  height: 21px;
+
+  margin-top: 30px;
+  margin-left: 590px;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+
+  color: #ffffff;
+}
+
+.footer__icons {
+  display: inline-block;
+
+  margin-top: 26px;
+
+  width: 140.96px;
+  height: 33.65px;
+
+  margin-left: 328px;
+}
+
+.icons__icon-1 {
+  display: inline-block;
+
+  width: 33.65px;
+  height: 33.65px;
+
+  margin-right: 10.8px;
+
+  background-image: url(../img/icons/icon-instagram.svg);
+  background-repeat: no-repeat;
+}
+
+.icons__icon-2 {
+  display: inline-block;
+
+  width: 33.65px;
+  height: 33.65px;
+
+  margin-right: 10.8px;
+
+  background-image: url(../img/icons/youtube.svg);
+  background-repeat: no-repeat;
+}
+
+.icons__icon-3 {
+  display: inline-block;
+
+  width: 33.65px;
+  height: 33.65px;
+
+  background-image: url(../img/icons/facebook.svg);
+  background-repeat: no-repeat;
 }
