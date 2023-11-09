@@ -18,17 +18,7 @@ I'm Nikita, I'm from Russia. I'm learning frontend profession and I'm also learn
 - JavaScript (Basic)
 - Git
 
-## Code Example
 
-```
-function sum(a, b) {
-  return a + b;
-}
-
-let result = sum(1, 2);
-alert( result );
-
-```
 
 ## Education
 
